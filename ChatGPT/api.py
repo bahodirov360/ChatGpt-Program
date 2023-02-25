@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "Your_API"
 
 prompt= input("Nima so'raysiz?: ")
 
