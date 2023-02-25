@@ -12,7 +12,7 @@ def tug():
 
 @app.route('/eng', methods=['GET', 'POST'])
 def sura():
-    openai.api_key = "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"
+    openai.api_key = "Your_API"
 
     if request.method == 'POST':
         prompt = request.form['sura']
@@ -34,7 +34,7 @@ def sura():
 
 @app.route('/uz', methods=['GET', 'POST'])
 def surama():
-    openai.api_key = "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"
+    openai.api_key = "Your_API"
 
     if request.method == 'POST':
         rere = request.form['surama']
@@ -51,7 +51,7 @@ def surama():
 
 @app.route('/rus', methods=['GET', 'POST'])
 def surammama():
-    openai.api_key = "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"
+    openai.api_key = "Your_API"
 
     if request.method == 'POST':
         rebe = request.form['suraaama']
